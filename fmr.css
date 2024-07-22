@@ -1,0 +1,104 @@
+.profile-container {
+    border-radius: 4px;
+    padding: 3px;
+    width: 100%;
+    max-width: 450px;  /* Largeur maximale de 500 pixels */
+    margin: 0 auto;
+}
+
+.profile-body {
+    display: flex;
+        margin-top: -40px;
+}
+
+.profile-image-container {
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;  /* Cadre autour de l'image */
+    padding: 5px;  /* Espacement entre l'image et le cadre */
+    border-radius: 3px;  /* Coins arrondis du cadre */
+}
+
+.profile-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.profile-details {
+    flex: 3;
+}
+
+.profile-details p {
+    margin: 5px 0;
+}
+
+.profile-details strong {
+    font-weight: bold;
+}
+
+
+fmr {
+background-color: var(--fmrc);
+border-radius: 2px;
+color: var(--colover3);
+display: inline-block;
+   font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+font-size: 9px;
+font-weight: 700;
+letter-spacing: 1px;
+margin: 1px 5px 1px 0;
+padding: 0 10px;
+text-transform: uppercase;}
+
+.fmrimg {
+background-image: var(--bgimgfiches); 
+padding: 3px; 
+border: 2px solid var(--bgcadrecatfmr);
+border-radius: 3px; 
+width: 120px;
+ height: 180px;
+  object-fit: cover;
+}
+
+nomfmr {
+font-family: 'Playfair Display',serif; 
+font-size: 16px;
+letter-spacing: 1px;
+font-weight: 800;
+font-style: italic;}
+
+.fmrtxt {
+text-align: justify;
+text-align: justify;
+margin-left: 20px;
+margin-right: 15px;
+  }
+
+.encap2 {
+background-color: var(--cadrefmrb);
+border:1px solid var(--bgcadrefmrb);
+width:450px;
+margin-top:2px;}
+
+.fmrencap2 {
+background-color: var(--cadrefmrencap2);
+border:1px solid: var(--bgcadrefmrencap2);
+width:290px;
+margin-top:2px;margin-right: 4px;}
+
+.encap5 {
+background-color: var(--fondfmrs);
+ width:435px;
+margin-top:5px;
+margin-bottom:5px;}
+
+.text2 {
+text-align:justify;font-size:10px;line-height: 10px;padding:9px;padding-left:9px;padding-right:9px;}
